@@ -6,10 +6,8 @@ import time
 recordCount = 1
 
 file = open(sys.argv[1], 'r')
-if sys.argv[3] = true: 
-    workbook = xlsxwriter.Workbook(sys.argv[2] + str(datetime.datetime()) + '.xlsx')
-else:    
-    workbook = xlsxwriter.Workbook(sys.argv[2] + '.xlsx')	
+	
+chooseExcelFileName(sys.argv[2], sys.argv[3])
 
 worksheet = workbook.add_worksheet()
 
@@ -28,3 +26,15 @@ try:
 finally:
 	file.close()	
 workbook.close()
+
+def chooseExcelFileName(name, timeStamp):
+    if name != 0:
+        if timeStamp = true: 
+            workbook = xlsxwriter.Workbook(name + str(datetime.datetime()) + '.xlsx')
+        else:    
+            workbook = xlsxwriter.Workbook(name + '.xlsx')	
+    else: 
+        if timeStamp = true: 
+            workbook = xlsxwriter.Workbook(newFile + str(datetime.datetime()) + '.xlsx')
+        else:    
+            workbook = xlsxwriter.Workbook(newFile + '.xlsx')    
