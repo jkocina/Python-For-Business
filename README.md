@@ -6,10 +6,10 @@ Usage = call script from console, pass csv file as first argument. file name cho
 
 **__i.e.__**
 
-**<command-line>python csvToXlsx.py fileForConversion.csv newFileName true**
+**command-line:** __python csvToXlsx.py fileForConversion.csv newFileName true__
 
-__This will convert the ".csv file" to "newFileName(timestamp).xlsx" __
+This will convert the ".csv file" to "newFileName(timestamp).xlsx"
 
-**<command-line>python csvToXlsx.py fileForConversion.csv secondNewFileName false**
+**command-line:** __python csvToXlsx.py fileForConversion.csv secondNewFileName false__
 
-__This will convert the ".csv file" to "secondNewFIleName.xlsx"__
+This will convert the ".csv file" to "secondNewFIleName.xlsx"
