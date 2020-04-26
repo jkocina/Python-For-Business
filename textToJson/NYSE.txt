@@ -1,4 +1,3 @@
-Symbol	Description
 A	Agilent Technologies
 AA	Alcoa Corp
 AAN	Aaron's Inc
@@ -2040,9 +2039,9 @@ NSP	Insperity Inc
 NSS	Nustar Logistics LP
 NTB	Bank of Butterfield Ltd
 NTCO	Natura &Co Holding S.A. ADR
-NTEST.I	
-NTEST.J	
-NTEST.K	
+NTEST.I
+NTEST.J
+NTEST.K
 NTG	Tortoise MLP Fund
 NTP	Nam Tai Electronics
 NTR	Nutrien Ltd
